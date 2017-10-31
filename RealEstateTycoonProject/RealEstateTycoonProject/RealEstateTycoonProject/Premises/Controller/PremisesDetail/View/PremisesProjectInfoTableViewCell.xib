@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="PremisesProjectInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmzl" translatesAutoresizingMaskIntoConstraints="NO" id="RgF-4e-Dfb">
+                        <rect key="frame" x="8" y="4" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="f45-LF-CXQ"/>
+                            <constraint firstAttribute="height" constant="20" id="rgU-Uf-qwg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXZ-Nh-g16">
+                        <rect key="frame" x="8" y="6" width="304" height="90.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RgF-4e-Dfb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="68Z-wc-yfH"/>
+                    <constraint firstAttribute="trailing" secondItem="LXZ-Nh-g16" secondAttribute="trailing" constant="8" id="BEt-pE-BLv"/>
+                    <constraint firstItem="LXZ-Nh-g16" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="CgD-xJ-vAy"/>
+                    <constraint firstItem="RgF-4e-Dfb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="LtV-Oa-AqH"/>
+                    <constraint firstAttribute="bottom" secondItem="LXZ-Nh-g16" secondAttribute="bottom" id="POL-rG-IEk"/>
+                    <constraint firstItem="LXZ-Nh-g16" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="RZB-J9-EXO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentInfoLabel" destination="LXZ-Nh-g16" id="A9s-n4-MbJ"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="82.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xmzl" width="18" height="18"/>
+    </resources>
+</document>

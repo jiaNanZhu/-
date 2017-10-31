@@ -1,0 +1,1347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035D161DDC9E4AF2A028C820 /* libPods-RealEstateTycoonProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B69D7287DD1034ACB442BEB /* libPods-RealEstateTycoonProject.a */; };
+		E3035BDA1F0F190E0086B71D /* ZJNRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BD51F0F190E0086B71D /* ZJNRequestManager.m */; };
+		E3035BDB1F0F190E0086B71D /* Utile.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BD71F0F190E0086B71D /* Utile.m */; };
+		E3035BDC1F0F190E0086B71D /* CroppingImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BD91F0F190E0086B71D /* CroppingImageViewController.m */; };
+		E3035BDF1F0F1BCA0086B71D /* UILabel+BoundingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BDE1F0F1BCA0086B71D /* UILabel+BoundingRect.m */; };
+		E3035BE21F0F223A0086B71D /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BE11F0F223A0086B71D /* BasicViewController.m */; };
+		E3035BE51F0F29D40086B71D /* RealEstateTycoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BE41F0F29D40086B71D /* RealEstateTycoonViewController.m */; };
+		E3035BF01F0F30940086B71D /* DemandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BEF1F0F30940086B71D /* DemandViewController.m */; };
+		E3035BF31F0F30A20086B71D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BF21F0F30A20086B71D /* MessageViewController.m */; };
+		E3035BF61F0F30B00086B71D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BF51F0F30B00086B71D /* MineViewController.m */; };
+		E3035BF91F0F30C10086B71D /* PremisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BF81F0F30C10086B71D /* PremisesViewController.m */; };
+		E3035BFC1F0F30CE0086B71D /* ReleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BFB1F0F30CE0086B71D /* ReleaseViewController.m */; };
+		E3035C001F0F37830086B71D /* RealEstateTycoonTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035BFF1F0F37830086B71D /* RealEstateTycoonTabbarController.m */; };
+		E3035C031F0F379C0086B71D /* ZJNTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C021F0F379C0086B71D /* ZJNTabbar.m */; };
+		E3035C061F0F397E0086B71D /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C051F0F397E0086B71D /* UIImage+Image.m */; };
+		E3035C0A1F0F39F40086B71D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C091F0F39F40086B71D /* UIView+Extension.m */; };
+		E3035C0D1F0F65C60086B71D /* UIColor+Extensiton.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C0C1F0F65C60086B71D /* UIColor+Extensiton.m */; };
+		E3035C131F0F7EE70086B71D /* PremisesListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C111F0F7EE70086B71D /* PremisesListTableViewCell.m */; };
+		E3035C141F0F7EE70086B71D /* PremisesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3035C121F0F7EE70086B71D /* PremisesListTableViewCell.xib */; };
+		E3035C171F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3035C161F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.m */; };
+		E30383EC1F146690001C663C /* PremisesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E30383EA1F146690001C663C /* PremisesDetailViewController.m */; };
+		E30383ED1F146690001C663C /* PremisesDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30383EB1F146690001C663C /* PremisesDetailViewController.xib */; };
+		E30383F21F146887001C663C /* PremisesDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E30383F11F146887001C663C /* PremisesDetailHeaderView.m */; };
+		E32963001F0E0E4A00BEC9D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32962FF1F0E0E4A00BEC9D8 /* main.m */; };
+		E32963031F0E0E4A00BEC9D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E32963021F0E0E4A00BEC9D8 /* AppDelegate.m */; };
+		E32963061F0E0E4A00BEC9D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32963051F0E0E4A00BEC9D8 /* ViewController.m */; };
+		E32963091F0E0E4A00BEC9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32963071F0E0E4A00BEC9D8 /* Main.storyboard */; };
+		E329630B1F0E0E4A00BEC9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E329630A1F0E0E4A00BEC9D8 /* Assets.xcassets */; };
+		E329630E1F0E0E4A00BEC9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E329630C1F0E0E4A00BEC9D8 /* LaunchScreen.storyboard */; };
+		E32963191F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32963181F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.m */; };
+		E32963241F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32963231F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.m */; };
+		E331FF811F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E331FF7F1F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.m */; };
+		E331FF821F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E331FF801F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.xib */; };
+		E331FF861F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E331FF841F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.m */; };
+		E331FF871F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E331FF851F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.xib */; };
+		E34CA4691F1606FA00164B3A /* HouseTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA4671F1606FA00164B3A /* HouseTypeTableViewCell.m */; };
+		E34CA46A1F1606FA00164B3A /* HouseTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34CA4681F1606FA00164B3A /* HouseTypeTableViewCell.xib */; };
+		E34CA46D1F1609AE00164B3A /* HouseTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA46C1F1609AE00164B3A /* HouseTypeView.m */; };
+		E34CA4771F161F3200164B3A /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA4711F161F3200164B3A /* SDBrowserImageView.m */; };
+		E34CA4781F161F3200164B3A /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA4731F161F3200164B3A /* SDPhotoBrowser.m */; };
+		E34CA4791F161F3200164B3A /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA4761F161F3200164B3A /* SDWaitingView.m */; };
+		E34CA47D1F16269D00164B3A /* PremisesInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CA47B1F16269D00164B3A /* PremisesInfoTableViewCell.m */; };
+		E34CA47E1F16269D00164B3A /* PremisesInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34CA47C1F16269D00164B3A /* PremisesInfoTableViewCell.xib */; };
+		E37145BF1F132ABD008B0F7C /* SearchPremisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37145BE1F132ABD008B0F7C /* SearchPremisesViewController.m */; };
+		E37145C21F13556E008B0F7C /* PayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E37145C11F13556E008B0F7C /* PayView.m */; };
+		E37145C51F137C2B008B0F7C /* ZJNPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E37145C41F137C2B008B0F7C /* ZJNPasswordTextField.m */; };
+		E3C533D11F1080A80019C747 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3C533D01F1080A80019C747 /* area.plist */; };
+		E3C58F851F20400D002EF75C /* ReleasePremisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F841F20400D002EF75C /* ReleasePremisesViewController.m */; };
+		E3C58F8B1F204077002EF75C /* PremisesNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F891F204077002EF75C /* PremisesNameTableViewCell.m */; };
+		E3C58F8C1F204077002EF75C /* PremisesNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F8A1F204077002EF75C /* PremisesNameTableViewCell.xib */; };
+		E3C58F901F204181002EF75C /* DoubleTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F8E1F204181002EF75C /* DoubleTextFieldTableViewCell.m */; };
+		E3C58F911F204181002EF75C /* DoubleTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F8F1F204181002EF75C /* DoubleTextFieldTableViewCell.xib */; };
+		E3C58F951F204855002EF75C /* ButtonATextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F931F204855002EF75C /* ButtonATextFieldTableViewCell.m */; };
+		E3C58F961F204855002EF75C /* ButtonATextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F941F204855002EF75C /* ButtonATextFieldTableViewCell.xib */; };
+		E3C58F9A1F208B1B002EF75C /* DoubleSelectTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F981F208B1B002EF75C /* DoubleSelectTimeTableViewCell.m */; };
+		E3C58F9B1F208B1B002EF75C /* DoubleSelectTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F991F208B1B002EF75C /* DoubleSelectTimeTableViewCell.xib */; };
+		E3C58FA01F20ACEB002EF75C /* XHDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F9E1F20ACEB002EF75C /* XHDatePickerView.m */; };
+		E3C58FA11F20ACEB002EF75C /* XHDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F9F1F20ACEB002EF75C /* XHDatePickerView.xib */; };
+		E3C58FA41F20AF34002EF75C /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C58FA31F20AF34002EF75C /* NSDate+Extension.m */; };
+		E3C9C10B1F1C5C69006BECF0 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9C10A1F1C5C69006BECF0 /* UIViewController+HUD.m */; };
+		E3C9C10D1F1CA987006BECF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C9C10C1F1CA987006BECF0 /* MapKit.framework */; };
+		E3C9C10F1F1CA992006BECF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C9C10E1F1CA992006BECF0 /* CoreLocation.framework */; };
+		E3C9C1161F1CB225006BECF0 /* DemandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9C1141F1CB225006BECF0 /* DemandTableViewCell.m */; };
+		E3C9C1171F1CB225006BECF0 /* DemandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C9C1151F1CB225006BECF0 /* DemandTableViewCell.xib */; };
+		E3D3B9591F2715DD00B6751D /* PremisesDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D3B9581F2715DD00B6751D /* PremisesDetailModel.m */; };
+		E3D3B95C1F2725D000B6751D /* DemandListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D3B95B1F2725D000B6751D /* DemandListModel.m */; };
+		E3D3B95F1F2733A200B6751D /* PremisesUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D3B95E1F2733A200B6751D /* PremisesUserInfoModel.m */; };
+		E3D6B84A1F0FDA5D00AC7A4C /* AllOrTypePremisesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D6B8491F0FDA5D00AC7A4C /* AllOrTypePremisesView.m */; };
+		E3D6B84D1F0FDA7100AC7A4C /* AreaPremisesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D6B84C1F0FDA7100AC7A4C /* AreaPremisesView.m */; };
+		E3D6B8511F0FDB1500AC7A4C /* MiddleLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D6B84F1F0FDB1500AC7A4C /* MiddleLabelTableViewCell.m */; };
+		E3D6B8521F0FDB1500AC7A4C /* MiddleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D6B8501F0FDB1500AC7A4C /* MiddleLabelTableViewCell.xib */; };
+		E3E161961F218CB00056152E /* AddImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E161951F218CB00056152E /* AddImageView.m */; };
+		E3E1619B1F218CBF0056152E /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3E161981F218CBF0056152E /* ZYQAssetPicker.Bundle */; };
+		E3E1619C1F218CBF0056152E /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E1619A1F218CBF0056152E /* ZYQAssetPickerController.m */; };
+		E3E1619F1F218D100056152E /* EvaluationPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E1619E1F218D100056152E /* EvaluationPreview.m */; };
+		E3E161A21F21CEEC0056152E /* HouseTypeImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E161A11F21CEEC0056152E /* HouseTypeImageTableViewCell.m */; };
+		E3E161A51F21E2250056152E /* ContractImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E161A41F21E2250056152E /* ContractImageTableViewCell.m */; };
+		E3E161A91F21E75D0056152E /* PremisesParameterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E161A71F21E75D0056152E /* PremisesParameterTableViewCell.m */; };
+		E3E161AA1F21E75D0056152E /* PremisesParameterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3E161A81F21E75D0056152E /* PremisesParameterTableViewCell.xib */; };
+		E3E161AE1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E161AC1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.m */; };
+		E3E161AF1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3E161AD1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.xib */; };
+		E3F68D421F1EE62D001ED335 /* DemandDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D401F1EE62D001ED335 /* DemandDetailViewController.m */; };
+		E3F68D431F1EE62D001ED335 /* DemandDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D411F1EE62D001ED335 /* DemandDetailViewController.xib */; };
+		E3F68D491F1EE857001ED335 /* DemandDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D471F1EE857001ED335 /* DemandDetailTableViewCell.m */; };
+		E3F68D4A1F1EE857001ED335 /* DemandDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D481F1EE857001ED335 /* DemandDetailTableViewCell.xib */; };
+		E3F68D531F1F29D3001ED335 /* ReleaseRequirementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D511F1F29D3001ED335 /* ReleaseRequirementsViewController.m */; };
+		E3F68D541F1F29D3001ED335 /* ReleaseRequirementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D521F1F29D3001ED335 /* ReleaseRequirementsViewController.xib */; };
+		E3F68D5A1F1F2C04001ED335 /* PriceRangeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D581F1F2C04001ED335 /* PriceRangeTableViewCell.m */; };
+		E3F68D5B1F1F2C04001ED335 /* PriceRangeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D591F1F2C04001ED335 /* PriceRangeTableViewCell.xib */; };
+		E3F68D5F1F1F2F52001ED335 /* ReleaseSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D5D1F1F2F52001ED335 /* ReleaseSelectTableViewCell.m */; };
+		E3F68D601F1F2F52001ED335 /* ReleaseSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D5E1F1F2F52001ED335 /* ReleaseSelectTableViewCell.xib */; };
+		E3F68D641F1F4643001ED335 /* ReleaseAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F68D621F1F4643001ED335 /* ReleaseAddressTableViewCell.m */; };
+		E3F68D651F1F4643001ED335 /* ReleaseAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F68D631F1F4643001ED335 /* ReleaseAddressTableViewCell.xib */; };
+		E3FFFA3D1F25EEB0008679B5 /* PremisesListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FFFA3C1F25EEB0008679B5 /* PremisesListModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E32963151F0E0E4A00BEC9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32962F31F0E0E4A00BEC9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32962FA1F0E0E4A00BEC9D8;
+			remoteInfo = RealEstateTycoonProject;
+		};
+		E32963201F0E0E4A00BEC9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32962F31F0E0E4A00BEC9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32962FA1F0E0E4A00BEC9D8;
+			remoteInfo = RealEstateTycoonProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54E627BFA6239609A9F3498F /* Pods-RealEstateTycoonProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTycoonProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstateTycoonProject/Pods-RealEstateTycoonProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5B69D7287DD1034ACB442BEB /* libPods-RealEstateTycoonProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealEstateTycoonProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03A5CB45123122A041BCB5A /* Pods-RealEstateTycoonProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealEstateTycoonProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealEstateTycoonProject/Pods-RealEstateTycoonProject.release.xcconfig"; sourceTree = "<group>"; };
+		E3035BD41F0F190E0086B71D /* ZJNRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNRequestManager.h; sourceTree = "<group>"; };
+		E3035BD51F0F190E0086B71D /* ZJNRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNRequestManager.m; sourceTree = "<group>"; };
+		E3035BD61F0F190E0086B71D /* Utile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utile.h; sourceTree = "<group>"; };
+		E3035BD71F0F190E0086B71D /* Utile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utile.m; sourceTree = "<group>"; };
+		E3035BD81F0F190E0086B71D /* CroppingImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingImageViewController.h; sourceTree = "<group>"; };
+		E3035BD91F0F190E0086B71D /* CroppingImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppingImageViewController.m; sourceTree = "<group>"; };
+		E3035BDD1F0F1BCA0086B71D /* UILabel+BoundingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BoundingRect.h"; sourceTree = "<group>"; };
+		E3035BDE1F0F1BCA0086B71D /* UILabel+BoundingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BoundingRect.m"; sourceTree = "<group>"; };
+		E3035BE01F0F223A0086B71D /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		E3035BE11F0F223A0086B71D /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		E3035BE31F0F29D40086B71D /* RealEstateTycoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealEstateTycoonViewController.h; sourceTree = "<group>"; };
+		E3035BE41F0F29D40086B71D /* RealEstateTycoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealEstateTycoonViewController.m; sourceTree = "<group>"; };
+		E3035BEE1F0F30940086B71D /* DemandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandViewController.h; sourceTree = "<group>"; };
+		E3035BEF1F0F30940086B71D /* DemandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandViewController.m; sourceTree = "<group>"; };
+		E3035BF11F0F30A20086B71D /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		E3035BF21F0F30A20086B71D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		E3035BF41F0F30B00086B71D /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		E3035BF51F0F30B00086B71D /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		E3035BF71F0F30C10086B71D /* PremisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesViewController.h; sourceTree = "<group>"; };
+		E3035BF81F0F30C10086B71D /* PremisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesViewController.m; sourceTree = "<group>"; };
+		E3035BFA1F0F30CE0086B71D /* ReleaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseViewController.h; sourceTree = "<group>"; };
+		E3035BFB1F0F30CE0086B71D /* ReleaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseViewController.m; sourceTree = "<group>"; };
+		E3035BFE1F0F37830086B71D /* RealEstateTycoonTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealEstateTycoonTabbarController.h; sourceTree = "<group>"; };
+		E3035BFF1F0F37830086B71D /* RealEstateTycoonTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealEstateTycoonTabbarController.m; sourceTree = "<group>"; };
+		E3035C011F0F379C0086B71D /* ZJNTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNTabbar.h; sourceTree = "<group>"; };
+		E3035C021F0F379C0086B71D /* ZJNTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNTabbar.m; sourceTree = "<group>"; };
+		E3035C041F0F397E0086B71D /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E3035C051F0F397E0086B71D /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E3035C081F0F39F40086B71D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E3035C091F0F39F40086B71D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E3035C0B1F0F65C60086B71D /* UIColor+Extensiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensiton.h"; sourceTree = "<group>"; };
+		E3035C0C1F0F65C60086B71D /* UIColor+Extensiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensiton.m"; sourceTree = "<group>"; };
+		E3035C101F0F7EE70086B71D /* PremisesListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesListTableViewCell.h; sourceTree = "<group>"; };
+		E3035C111F0F7EE70086B71D /* PremisesListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesListTableViewCell.m; sourceTree = "<group>"; };
+		E3035C121F0F7EE70086B71D /* PremisesListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesListTableViewCell.xib; sourceTree = "<group>"; };
+		E3035C151F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPremisesTableHeaderView.h; sourceTree = "<group>"; };
+		E3035C161F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPremisesTableHeaderView.m; sourceTree = "<group>"; };
+		E30383E91F146690001C663C /* PremisesDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesDetailViewController.h; sourceTree = "<group>"; };
+		E30383EA1F146690001C663C /* PremisesDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesDetailViewController.m; sourceTree = "<group>"; };
+		E30383EB1F146690001C663C /* PremisesDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesDetailViewController.xib; sourceTree = "<group>"; };
+		E30383F01F146887001C663C /* PremisesDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesDetailHeaderView.h; sourceTree = "<group>"; };
+		E30383F11F146887001C663C /* PremisesDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesDetailHeaderView.m; sourceTree = "<group>"; };
+		E32962FB1F0E0E4A00BEC9D8 /* RealEstateTycoonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstateTycoonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32962FF1F0E0E4A00BEC9D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E32963011F0E0E4A00BEC9D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E32963021F0E0E4A00BEC9D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E32963041F0E0E4A00BEC9D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E32963051F0E0E4A00BEC9D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E32963081F0E0E4A00BEC9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E329630A1F0E0E4A00BEC9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E329630D1F0E0E4A00BEC9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E329630F1F0E0E4A00BEC9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32963141F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTycoonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32963181F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealEstateTycoonProjectTests.m; sourceTree = "<group>"; };
+		E329631A1F0E0E4A00BEC9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E329631F1F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTycoonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32963231F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealEstateTycoonProjectUITests.m; sourceTree = "<group>"; };
+		E32963251F0E0E4A00BEC9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32963311F0E100C00BEC9D8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E331FF7E1F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesProjectInfoTableViewCell.h; sourceTree = "<group>"; };
+		E331FF7F1F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesProjectInfoTableViewCell.m; sourceTree = "<group>"; };
+		E331FF801F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesProjectInfoTableViewCell.xib; sourceTree = "<group>"; };
+		E331FF831F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveWordsTextViewTableViewCell.h; sourceTree = "<group>"; };
+		E331FF841F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveWordsTextViewTableViewCell.m; sourceTree = "<group>"; };
+		E331FF851F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaveWordsTextViewTableViewCell.xib; sourceTree = "<group>"; };
+		E34CA4661F1606FA00164B3A /* HouseTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseTypeTableViewCell.h; sourceTree = "<group>"; };
+		E34CA4671F1606FA00164B3A /* HouseTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseTypeTableViewCell.m; sourceTree = "<group>"; };
+		E34CA4681F1606FA00164B3A /* HouseTypeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseTypeTableViewCell.xib; sourceTree = "<group>"; };
+		E34CA46B1F1609AE00164B3A /* HouseTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseTypeView.h; sourceTree = "<group>"; };
+		E34CA46C1F1609AE00164B3A /* HouseTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseTypeView.m; sourceTree = "<group>"; };
+		E34CA4701F161F3200164B3A /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		E34CA4711F161F3200164B3A /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		E34CA4721F161F3200164B3A /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		E34CA4731F161F3200164B3A /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		E34CA4741F161F3200164B3A /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		E34CA4751F161F3200164B3A /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		E34CA4761F161F3200164B3A /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		E34CA47A1F16269D00164B3A /* PremisesInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesInfoTableViewCell.h; sourceTree = "<group>"; };
+		E34CA47B1F16269D00164B3A /* PremisesInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesInfoTableViewCell.m; sourceTree = "<group>"; };
+		E34CA47C1F16269D00164B3A /* PremisesInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesInfoTableViewCell.xib; sourceTree = "<group>"; };
+		E37145BD1F132ABD008B0F7C /* SearchPremisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPremisesViewController.h; sourceTree = "<group>"; };
+		E37145BE1F132ABD008B0F7C /* SearchPremisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPremisesViewController.m; sourceTree = "<group>"; };
+		E37145C01F13556E008B0F7C /* PayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayView.h; sourceTree = "<group>"; };
+		E37145C11F13556E008B0F7C /* PayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayView.m; sourceTree = "<group>"; };
+		E37145C31F137C2B008B0F7C /* ZJNPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNPasswordTextField.h; sourceTree = "<group>"; };
+		E37145C41F137C2B008B0F7C /* ZJNPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNPasswordTextField.m; sourceTree = "<group>"; };
+		E3C533D01F1080A80019C747 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		E3C58F831F20400D002EF75C /* ReleasePremisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleasePremisesViewController.h; sourceTree = "<group>"; };
+		E3C58F841F20400D002EF75C /* ReleasePremisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleasePremisesViewController.m; sourceTree = "<group>"; };
+		E3C58F881F204077002EF75C /* PremisesNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesNameTableViewCell.h; sourceTree = "<group>"; };
+		E3C58F891F204077002EF75C /* PremisesNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesNameTableViewCell.m; sourceTree = "<group>"; };
+		E3C58F8A1F204077002EF75C /* PremisesNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesNameTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F8D1F204181002EF75C /* DoubleTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		E3C58F8E1F204181002EF75C /* DoubleTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		E3C58F8F1F204181002EF75C /* DoubleTextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleTextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F921F204855002EF75C /* ButtonATextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonATextFieldTableViewCell.h; sourceTree = "<group>"; };
+		E3C58F931F204855002EF75C /* ButtonATextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonATextFieldTableViewCell.m; sourceTree = "<group>"; };
+		E3C58F941F204855002EF75C /* ButtonATextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonATextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F971F208B1B002EF75C /* DoubleSelectTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleSelectTimeTableViewCell.h; sourceTree = "<group>"; };
+		E3C58F981F208B1B002EF75C /* DoubleSelectTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleSelectTimeTableViewCell.m; sourceTree = "<group>"; };
+		E3C58F991F208B1B002EF75C /* DoubleSelectTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleSelectTimeTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F9D1F20ACEB002EF75C /* XHDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDatePickerView.h; sourceTree = "<group>"; };
+		E3C58F9E1F20ACEB002EF75C /* XHDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDatePickerView.m; sourceTree = "<group>"; };
+		E3C58F9F1F20ACEB002EF75C /* XHDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHDatePickerView.xib; sourceTree = "<group>"; };
+		E3C58FA21F20AF34002EF75C /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		E3C58FA31F20AF34002EF75C /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		E3C9C1091F1C5C69006BECF0 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		E3C9C10A1F1C5C69006BECF0 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		E3C9C10C1F1CA987006BECF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E3C9C10E1F1CA992006BECF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E3C9C1131F1CB225006BECF0 /* DemandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandTableViewCell.h; sourceTree = "<group>"; };
+		E3C9C1141F1CB225006BECF0 /* DemandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandTableViewCell.m; sourceTree = "<group>"; };
+		E3C9C1151F1CB225006BECF0 /* DemandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemandTableViewCell.xib; sourceTree = "<group>"; };
+		E3D3B9571F2715DD00B6751D /* PremisesDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesDetailModel.h; sourceTree = "<group>"; };
+		E3D3B9581F2715DD00B6751D /* PremisesDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesDetailModel.m; sourceTree = "<group>"; };
+		E3D3B95A1F2725D000B6751D /* DemandListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandListModel.h; sourceTree = "<group>"; };
+		E3D3B95B1F2725D000B6751D /* DemandListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandListModel.m; sourceTree = "<group>"; };
+		E3D3B95D1F2733A200B6751D /* PremisesUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesUserInfoModel.h; sourceTree = "<group>"; };
+		E3D3B95E1F2733A200B6751D /* PremisesUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesUserInfoModel.m; sourceTree = "<group>"; };
+		E3D6B8481F0FDA5D00AC7A4C /* AllOrTypePremisesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllOrTypePremisesView.h; sourceTree = "<group>"; };
+		E3D6B8491F0FDA5D00AC7A4C /* AllOrTypePremisesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllOrTypePremisesView.m; sourceTree = "<group>"; };
+		E3D6B84B1F0FDA7100AC7A4C /* AreaPremisesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaPremisesView.h; sourceTree = "<group>"; };
+		E3D6B84C1F0FDA7100AC7A4C /* AreaPremisesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaPremisesView.m; sourceTree = "<group>"; };
+		E3D6B84E1F0FDB1500AC7A4C /* MiddleLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleLabelTableViewCell.h; sourceTree = "<group>"; };
+		E3D6B84F1F0FDB1500AC7A4C /* MiddleLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleLabelTableViewCell.m; sourceTree = "<group>"; };
+		E3D6B8501F0FDB1500AC7A4C /* MiddleLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiddleLabelTableViewCell.xib; sourceTree = "<group>"; };
+		E3E161941F218CB00056152E /* AddImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddImageView.h; sourceTree = "<group>"; };
+		E3E161951F218CB00056152E /* AddImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddImageView.m; sourceTree = "<group>"; };
+		E3E161981F218CBF0056152E /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		E3E161991F218CBF0056152E /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		E3E1619A1F218CBF0056152E /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		E3E1619D1F218D100056152E /* EvaluationPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluationPreview.h; sourceTree = "<group>"; };
+		E3E1619E1F218D100056152E /* EvaluationPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluationPreview.m; sourceTree = "<group>"; };
+		E3E161A01F21CEEC0056152E /* HouseTypeImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseTypeImageTableViewCell.h; sourceTree = "<group>"; };
+		E3E161A11F21CEEC0056152E /* HouseTypeImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseTypeImageTableViewCell.m; sourceTree = "<group>"; };
+		E3E161A31F21E2250056152E /* ContractImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContractImageTableViewCell.h; sourceTree = "<group>"; };
+		E3E161A41F21E2250056152E /* ContractImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContractImageTableViewCell.m; sourceTree = "<group>"; };
+		E3E161A61F21E75D0056152E /* PremisesParameterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesParameterTableViewCell.h; sourceTree = "<group>"; };
+		E3E161A71F21E75D0056152E /* PremisesParameterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesParameterTableViewCell.m; sourceTree = "<group>"; };
+		E3E161A81F21E75D0056152E /* PremisesParameterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesParameterTableViewCell.xib; sourceTree = "<group>"; };
+		E3E161AB1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesInfoAndRuleTableViewCell.h; sourceTree = "<group>"; };
+		E3E161AC1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesInfoAndRuleTableViewCell.m; sourceTree = "<group>"; };
+		E3E161AD1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PremisesInfoAndRuleTableViewCell.xib; sourceTree = "<group>"; };
+		E3F68D3F1F1EE62D001ED335 /* DemandDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandDetailViewController.h; sourceTree = "<group>"; };
+		E3F68D401F1EE62D001ED335 /* DemandDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandDetailViewController.m; sourceTree = "<group>"; };
+		E3F68D411F1EE62D001ED335 /* DemandDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemandDetailViewController.xib; sourceTree = "<group>"; };
+		E3F68D461F1EE857001ED335 /* DemandDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemandDetailTableViewCell.h; sourceTree = "<group>"; };
+		E3F68D471F1EE857001ED335 /* DemandDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemandDetailTableViewCell.m; sourceTree = "<group>"; };
+		E3F68D481F1EE857001ED335 /* DemandDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemandDetailTableViewCell.xib; sourceTree = "<group>"; };
+		E3F68D501F1F29D3001ED335 /* ReleaseRequirementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseRequirementsViewController.h; sourceTree = "<group>"; };
+		E3F68D511F1F29D3001ED335 /* ReleaseRequirementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseRequirementsViewController.m; sourceTree = "<group>"; };
+		E3F68D521F1F29D3001ED335 /* ReleaseRequirementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseRequirementsViewController.xib; sourceTree = "<group>"; };
+		E3F68D571F1F2C04001ED335 /* PriceRangeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceRangeTableViewCell.h; sourceTree = "<group>"; };
+		E3F68D581F1F2C04001ED335 /* PriceRangeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceRangeTableViewCell.m; sourceTree = "<group>"; };
+		E3F68D591F1F2C04001ED335 /* PriceRangeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceRangeTableViewCell.xib; sourceTree = "<group>"; };
+		E3F68D5C1F1F2F52001ED335 /* ReleaseSelectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseSelectTableViewCell.h; sourceTree = "<group>"; };
+		E3F68D5D1F1F2F52001ED335 /* ReleaseSelectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseSelectTableViewCell.m; sourceTree = "<group>"; };
+		E3F68D5E1F1F2F52001ED335 /* ReleaseSelectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseSelectTableViewCell.xib; sourceTree = "<group>"; };
+		E3F68D611F1F4643001ED335 /* ReleaseAddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseAddressTableViewCell.h; sourceTree = "<group>"; };
+		E3F68D621F1F4643001ED335 /* ReleaseAddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseAddressTableViewCell.m; sourceTree = "<group>"; };
+		E3F68D631F1F4643001ED335 /* ReleaseAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseAddressTableViewCell.xib; sourceTree = "<group>"; };
+		E3FFFA3B1F25EEB0008679B5 /* PremisesListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremisesListModel.h; sourceTree = "<group>"; };
+		E3FFFA3C1F25EEB0008679B5 /* PremisesListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremisesListModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32962F81F0E0E4A00BEC9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C9C10F1F1CA992006BECF0 /* CoreLocation.framework in Frameworks */,
+				E3C9C10D1F1CA987006BECF0 /* MapKit.framework in Frameworks */,
+				035D161DDC9E4AF2A028C820 /* libPods-RealEstateTycoonProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32963111F0E0E4A00BEC9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E329631C1F0E0E4A00BEC9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4759ED7FC82C8B7E8B1E9991 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54E627BFA6239609A9F3498F /* Pods-RealEstateTycoonProject.debug.xcconfig */,
+				E03A5CB45123122A041BCB5A /* Pods-RealEstateTycoonProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EAFE174DB8B728146ED71F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C9C10E1F1CA992006BECF0 /* CoreLocation.framework */,
+				E3C9C10C1F1CA987006BECF0 /* MapKit.framework */,
+				5B69D7287DD1034ACB442BEB /* libPods-RealEstateTycoonProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3035BD31F0F18DB0086B71D /* BasicClass */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BD61F0F190E0086B71D /* Utile.h */,
+				E3035BD71F0F190E0086B71D /* Utile.m */,
+				E37145C31F137C2B008B0F7C /* ZJNPasswordTextField.h */,
+				E37145C41F137C2B008B0F7C /* ZJNPasswordTextField.m */,
+				E3035C081F0F39F40086B71D /* UIView+Extension.h */,
+				E3035C091F0F39F40086B71D /* UIView+Extension.m */,
+				E3035C041F0F397E0086B71D /* UIImage+Image.h */,
+				E3035C051F0F397E0086B71D /* UIImage+Image.m */,
+				E3035C0B1F0F65C60086B71D /* UIColor+Extensiton.h */,
+				E3035C0C1F0F65C60086B71D /* UIColor+Extensiton.m */,
+				E3035BE01F0F223A0086B71D /* BasicViewController.h */,
+				E3035BE11F0F223A0086B71D /* BasicViewController.m */,
+				E3035BD41F0F190E0086B71D /* ZJNRequestManager.h */,
+				E3035BD51F0F190E0086B71D /* ZJNRequestManager.m */,
+				E3035BDD1F0F1BCA0086B71D /* UILabel+BoundingRect.h */,
+				E3035BDE1F0F1BCA0086B71D /* UILabel+BoundingRect.m */,
+				E3C9C1091F1C5C69006BECF0 /* UIViewController+HUD.h */,
+				E3C9C10A1F1C5C69006BECF0 /* UIViewController+HUD.m */,
+				E3035BD81F0F190E0086B71D /* CroppingImageViewController.h */,
+				E3035BD91F0F190E0086B71D /* CroppingImageViewController.m */,
+				E3035BE31F0F29D40086B71D /* RealEstateTycoonViewController.h */,
+				E3035BE41F0F29D40086B71D /* RealEstateTycoonViewController.m */,
+				E3035BFD1F0F37830086B71D /* RealEstateTycoonTabbarController */,
+			);
+			path = BasicClass;
+			sourceTree = "<group>";
+		};
+		E3035BE91F0F30670086B71D /* Demand */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BEE1F0F30940086B71D /* DemandViewController.h */,
+				E3035BEF1F0F30940086B71D /* DemandViewController.m */,
+				E3C9C1101F1CB20F006BECF0 /* Controller */,
+				E3C9C1111F1CB20F006BECF0 /* Model */,
+				E3C9C1121F1CB20F006BECF0 /* View */,
+			);
+			path = Demand;
+			sourceTree = "<group>";
+		};
+		E3035BEA1F0F30670086B71D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BF11F0F30A20086B71D /* MessageViewController.h */,
+				E3035BF21F0F30A20086B71D /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		E3035BEB1F0F30670086B71D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BF41F0F30B00086B71D /* MineViewController.h */,
+				E3035BF51F0F30B00086B71D /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		E3035BEC1F0F30670086B71D /* Premises */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BF71F0F30C10086B71D /* PremisesViewController.h */,
+				E3035BF81F0F30C10086B71D /* PremisesViewController.m */,
+				E37145BB1F132A54008B0F7C /* Controller */,
+				E3035C0E1F0F7EB60086B71D /* Model */,
+				E3035C0F1F0F7EB60086B71D /* View */,
+			);
+			path = Premises;
+			sourceTree = "<group>";
+		};
+		E3035BED1F0F30670086B71D /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				E3035BFA1F0F30CE0086B71D /* ReleaseViewController.h */,
+				E3035BFB1F0F30CE0086B71D /* ReleaseViewController.m */,
+				E3F68D4B1F1F295A001ED335 /* Controller */,
+				E3F68D4C1F1F295A001ED335 /* Model */,
+				E3F68D4D1F1F295A001ED335 /* View */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		E3035BFD1F0F37830086B71D /* RealEstateTycoonTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				E3035C011F0F379C0086B71D /* ZJNTabbar.h */,
+				E3035C021F0F379C0086B71D /* ZJNTabbar.m */,
+				E3035BFE1F0F37830086B71D /* RealEstateTycoonTabbarController.h */,
+				E3035BFF1F0F37830086B71D /* RealEstateTycoonTabbarController.m */,
+			);
+			path = RealEstateTycoonTabbarController;
+			sourceTree = "<group>";
+		};
+		E3035C0E1F0F7EB60086B71D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3FFFA3B1F25EEB0008679B5 /* PremisesListModel.h */,
+				E3FFFA3C1F25EEB0008679B5 /* PremisesListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3035C0F1F0F7EB60086B71D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3035C101F0F7EE70086B71D /* PremisesListTableViewCell.h */,
+				E3035C111F0F7EE70086B71D /* PremisesListTableViewCell.m */,
+				E3035C121F0F7EE70086B71D /* PremisesListTableViewCell.xib */,
+				E3035C151F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.h */,
+				E3035C161F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.m */,
+				E3D6B8481F0FDA5D00AC7A4C /* AllOrTypePremisesView.h */,
+				E3D6B8491F0FDA5D00AC7A4C /* AllOrTypePremisesView.m */,
+				E3D6B84B1F0FDA7100AC7A4C /* AreaPremisesView.h */,
+				E3D6B84C1F0FDA7100AC7A4C /* AreaPremisesView.m */,
+				E3D6B84E1F0FDB1500AC7A4C /* MiddleLabelTableViewCell.h */,
+				E3D6B84F1F0FDB1500AC7A4C /* MiddleLabelTableViewCell.m */,
+				E3D6B8501F0FDB1500AC7A4C /* MiddleLabelTableViewCell.xib */,
+				E37145C01F13556E008B0F7C /* PayView.h */,
+				E37145C11F13556E008B0F7C /* PayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E30383E81F14642A001C663C /* PremisesDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E30383EE1F1466BD001C663C /* Model */,
+				E30383EF1F1466BD001C663C /* View */,
+				E30383E91F146690001C663C /* PremisesDetailViewController.h */,
+				E30383EA1F146690001C663C /* PremisesDetailViewController.m */,
+				E30383EB1F146690001C663C /* PremisesDetailViewController.xib */,
+			);
+			path = PremisesDetail;
+			sourceTree = "<group>";
+		};
+		E30383EE1F1466BD001C663C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3D3B9571F2715DD00B6751D /* PremisesDetailModel.h */,
+				E3D3B9581F2715DD00B6751D /* PremisesDetailModel.m */,
+				E3D3B95D1F2733A200B6751D /* PremisesUserInfoModel.h */,
+				E3D3B95E1F2733A200B6751D /* PremisesUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E30383EF1F1466BD001C663C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E30383F01F146887001C663C /* PremisesDetailHeaderView.h */,
+				E30383F11F146887001C663C /* PremisesDetailHeaderView.m */,
+				E34CA4661F1606FA00164B3A /* HouseTypeTableViewCell.h */,
+				E34CA4671F1606FA00164B3A /* HouseTypeTableViewCell.m */,
+				E34CA4681F1606FA00164B3A /* HouseTypeTableViewCell.xib */,
+				E34CA46B1F1609AE00164B3A /* HouseTypeView.h */,
+				E34CA46C1F1609AE00164B3A /* HouseTypeView.m */,
+				E34CA47A1F16269D00164B3A /* PremisesInfoTableViewCell.h */,
+				E34CA47B1F16269D00164B3A /* PremisesInfoTableViewCell.m */,
+				E34CA47C1F16269D00164B3A /* PremisesInfoTableViewCell.xib */,
+				E331FF7E1F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.h */,
+				E331FF7F1F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.m */,
+				E331FF801F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.xib */,
+				E331FF831F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.h */,
+				E331FF841F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.m */,
+				E331FF851F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E32962F21F0E0E4900BEC9D8 = {
+			isa = PBXGroup;
+			children = (
+				E32962FD1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */,
+				E32963171F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests */,
+				E32963221F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests */,
+				E32962FC1F0E0E4A00BEC9D8 /* Products */,
+				4759ED7FC82C8B7E8B1E9991 /* Pods */,
+				5EAFE174DB8B728146ED71F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E32962FC1F0E0E4A00BEC9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32962FB1F0E0E4A00BEC9D8 /* RealEstateTycoonProject.app */,
+				E32963141F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.xctest */,
+				E329631F1F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32962FD1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */ = {
+			isa = PBXGroup;
+			children = (
+				E32963011F0E0E4A00BEC9D8 /* AppDelegate.h */,
+				E32963021F0E0E4A00BEC9D8 /* AppDelegate.m */,
+				E32963041F0E0E4A00BEC9D8 /* ViewController.h */,
+				E32963051F0E0E4A00BEC9D8 /* ViewController.m */,
+				E34CA46E1F161F2900164B3A /* Tool */,
+				E3035BE91F0F30670086B71D /* Demand */,
+				E3035BEA1F0F30670086B71D /* Message */,
+				E3035BEB1F0F30670086B71D /* Mine */,
+				E3035BEC1F0F30670086B71D /* Premises */,
+				E3035BED1F0F30670086B71D /* Release */,
+				E3035BD31F0F18DB0086B71D /* BasicClass */,
+				E32963071F0E0E4A00BEC9D8 /* Main.storyboard */,
+				E329630A1F0E0E4A00BEC9D8 /* Assets.xcassets */,
+				E329630C1F0E0E4A00BEC9D8 /* LaunchScreen.storyboard */,
+				E329630F1F0E0E4A00BEC9D8 /* Info.plist */,
+				E3C533D01F1080A80019C747 /* area.plist */,
+				E32963311F0E100C00BEC9D8 /* Header.h */,
+				E32962FE1F0E0E4A00BEC9D8 /* Supporting Files */,
+			);
+			path = RealEstateTycoonProject;
+			sourceTree = "<group>";
+		};
+		E32962FE1F0E0E4A00BEC9D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32962FF1F0E0E4A00BEC9D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32963171F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E32963181F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.m */,
+				E329631A1F0E0E4A00BEC9D8 /* Info.plist */,
+			);
+			path = RealEstateTycoonProjectTests;
+			sourceTree = "<group>";
+		};
+		E32963221F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E32963231F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.m */,
+				E32963251F0E0E4A00BEC9D8 /* Info.plist */,
+			);
+			path = RealEstateTycoonProjectUITests;
+			sourceTree = "<group>";
+		};
+		E34CA46E1F161F2900164B3A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E3E161971F218CBF0056152E /* ZYQAssetPickerController */,
+				E3C58F9C1F20ACEB002EF75C /* XHDatePicker */,
+				E34CA46F1F161F3200164B3A /* SDPhotoBrowser */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E34CA46F1F161F3200164B3A /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E34CA4701F161F3200164B3A /* SDBrowserImageView.h */,
+				E34CA4711F161F3200164B3A /* SDBrowserImageView.m */,
+				E34CA4721F161F3200164B3A /* SDPhotoBrowser.h */,
+				E34CA4731F161F3200164B3A /* SDPhotoBrowser.m */,
+				E34CA4741F161F3200164B3A /* SDPhotoBrowserConfig.h */,
+				E34CA4751F161F3200164B3A /* SDWaitingView.h */,
+				E34CA4761F161F3200164B3A /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E37145BB1F132A54008B0F7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E30383E81F14642A001C663C /* PremisesDetail */,
+				E37145BC1F132AAE008B0F7C /* SearchPremises */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E37145BC1F132AAE008B0F7C /* SearchPremises */ = {
+			isa = PBXGroup;
+			children = (
+				E37145BD1F132ABD008B0F7C /* SearchPremisesViewController.h */,
+				E37145BE1F132ABD008B0F7C /* SearchPremisesViewController.m */,
+			);
+			path = SearchPremises;
+			sourceTree = "<group>";
+		};
+		E3C58F861F204021002EF75C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3C58F871F204021002EF75C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3E161941F218CB00056152E /* AddImageView.h */,
+				E3E161951F218CB00056152E /* AddImageView.m */,
+				E3E1619D1F218D100056152E /* EvaluationPreview.h */,
+				E3E1619E1F218D100056152E /* EvaluationPreview.m */,
+				E3C58F881F204077002EF75C /* PremisesNameTableViewCell.h */,
+				E3C58F891F204077002EF75C /* PremisesNameTableViewCell.m */,
+				E3C58F8A1F204077002EF75C /* PremisesNameTableViewCell.xib */,
+				E3C58F8D1F204181002EF75C /* DoubleTextFieldTableViewCell.h */,
+				E3C58F8E1F204181002EF75C /* DoubleTextFieldTableViewCell.m */,
+				E3C58F8F1F204181002EF75C /* DoubleTextFieldTableViewCell.xib */,
+				E3C58F921F204855002EF75C /* ButtonATextFieldTableViewCell.h */,
+				E3C58F931F204855002EF75C /* ButtonATextFieldTableViewCell.m */,
+				E3C58F941F204855002EF75C /* ButtonATextFieldTableViewCell.xib */,
+				E3C58F971F208B1B002EF75C /* DoubleSelectTimeTableViewCell.h */,
+				E3C58F981F208B1B002EF75C /* DoubleSelectTimeTableViewCell.m */,
+				E3C58F991F208B1B002EF75C /* DoubleSelectTimeTableViewCell.xib */,
+				E3E161A01F21CEEC0056152E /* HouseTypeImageTableViewCell.h */,
+				E3E161A11F21CEEC0056152E /* HouseTypeImageTableViewCell.m */,
+				E3E161A31F21E2250056152E /* ContractImageTableViewCell.h */,
+				E3E161A41F21E2250056152E /* ContractImageTableViewCell.m */,
+				E3E161A61F21E75D0056152E /* PremisesParameterTableViewCell.h */,
+				E3E161A71F21E75D0056152E /* PremisesParameterTableViewCell.m */,
+				E3E161A81F21E75D0056152E /* PremisesParameterTableViewCell.xib */,
+				E3E161AB1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.h */,
+				E3E161AC1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.m */,
+				E3E161AD1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3C58F9C1F20ACEB002EF75C /* XHDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E3C58F9D1F20ACEB002EF75C /* XHDatePickerView.h */,
+				E3C58F9E1F20ACEB002EF75C /* XHDatePickerView.m */,
+				E3C58F9F1F20ACEB002EF75C /* XHDatePickerView.xib */,
+				E3C58FA21F20AF34002EF75C /* NSDate+Extension.h */,
+				E3C58FA31F20AF34002EF75C /* NSDate+Extension.m */,
+			);
+			path = XHDatePicker;
+			sourceTree = "<group>";
+		};
+		E3C9C1101F1CB20F006BECF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D3E1F1EE612001ED335 /* DemandDetail */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3C9C1111F1CB20F006BECF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3D3B95A1F2725D000B6751D /* DemandListModel.h */,
+				E3D3B95B1F2725D000B6751D /* DemandListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3C9C1121F1CB20F006BECF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3C9C1131F1CB225006BECF0 /* DemandTableViewCell.h */,
+				E3C9C1141F1CB225006BECF0 /* DemandTableViewCell.m */,
+				E3C9C1151F1CB225006BECF0 /* DemandTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3E161971F218CBF0056152E /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				E3E161981F218CBF0056152E /* ZYQAssetPicker.Bundle */,
+				E3E161991F218CBF0056152E /* ZYQAssetPickerController.h */,
+				E3E1619A1F218CBF0056152E /* ZYQAssetPickerController.m */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+		E3F68D3E1F1EE612001ED335 /* DemandDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D3F1F1EE62D001ED335 /* DemandDetailViewController.h */,
+				E3F68D401F1EE62D001ED335 /* DemandDetailViewController.m */,
+				E3F68D411F1EE62D001ED335 /* DemandDetailViewController.xib */,
+				E3F68D441F1EE78E001ED335 /* Model */,
+				E3F68D451F1EE78E001ED335 /* View */,
+			);
+			path = DemandDetail;
+			sourceTree = "<group>";
+		};
+		E3F68D441F1EE78E001ED335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3F68D451F1EE78E001ED335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D461F1EE857001ED335 /* DemandDetailTableViewCell.h */,
+				E3F68D471F1EE857001ED335 /* DemandDetailTableViewCell.m */,
+				E3F68D481F1EE857001ED335 /* DemandDetailTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3F68D4B1F1F295A001ED335 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D4E1F1F29A9001ED335 /* ReleasePremisesViewController */,
+				E3F68D4F1F1F29A9001ED335 /* ReleaseRequirementsViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3F68D4C1F1F295A001ED335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3F68D4D1F1F295A001ED335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3F68D4E1F1F29A9001ED335 /* ReleasePremisesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3C58F831F20400D002EF75C /* ReleasePremisesViewController.h */,
+				E3C58F841F20400D002EF75C /* ReleasePremisesViewController.m */,
+				E3C58F861F204021002EF75C /* Model */,
+				E3C58F871F204021002EF75C /* View */,
+			);
+			path = ReleasePremisesViewController;
+			sourceTree = "<group>";
+		};
+		E3F68D4F1F1F29A9001ED335 /* ReleaseRequirementsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D501F1F29D3001ED335 /* ReleaseRequirementsViewController.h */,
+				E3F68D511F1F29D3001ED335 /* ReleaseRequirementsViewController.m */,
+				E3F68D521F1F29D3001ED335 /* ReleaseRequirementsViewController.xib */,
+				E3F68D551F1F29F5001ED335 /* Model */,
+				E3F68D561F1F29F5001ED335 /* View */,
+			);
+			path = ReleaseRequirementsViewController;
+			sourceTree = "<group>";
+		};
+		E3F68D551F1F29F5001ED335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3F68D561F1F29F5001ED335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3F68D571F1F2C04001ED335 /* PriceRangeTableViewCell.h */,
+				E3F68D581F1F2C04001ED335 /* PriceRangeTableViewCell.m */,
+				E3F68D591F1F2C04001ED335 /* PriceRangeTableViewCell.xib */,
+				E3F68D5C1F1F2F52001ED335 /* ReleaseSelectTableViewCell.h */,
+				E3F68D5D1F1F2F52001ED335 /* ReleaseSelectTableViewCell.m */,
+				E3F68D5E1F1F2F52001ED335 /* ReleaseSelectTableViewCell.xib */,
+				E3F68D611F1F4643001ED335 /* ReleaseAddressTableViewCell.h */,
+				E3F68D621F1F4643001ED335 /* ReleaseAddressTableViewCell.m */,
+				E3F68D631F1F4643001ED335 /* ReleaseAddressTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32962FA1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32963281F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProject" */;
+			buildPhases = (
+				298FD1815D8A58385AC41A3A /* [CP] Check Pods Manifest.lock */,
+				E32962F71F0E0E4A00BEC9D8 /* Sources */,
+				E32962F81F0E0E4A00BEC9D8 /* Frameworks */,
+				E32962F91F0E0E4A00BEC9D8 /* Resources */,
+				611D77E38FEA46F033C1127A /* [CP] Embed Pods Frameworks */,
+				756D44B35BF140BCB611C80C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealEstateTycoonProject;
+			productName = RealEstateTycoonProject;
+			productReference = E32962FB1F0E0E4A00BEC9D8 /* RealEstateTycoonProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E32963131F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E329632B1F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProjectTests" */;
+			buildPhases = (
+				E32963101F0E0E4A00BEC9D8 /* Sources */,
+				E32963111F0E0E4A00BEC9D8 /* Frameworks */,
+				E32963121F0E0E4A00BEC9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32963161F0E0E4A00BEC9D8 /* PBXTargetDependency */,
+			);
+			name = RealEstateTycoonProjectTests;
+			productName = RealEstateTycoonProjectTests;
+			productReference = E32963141F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E329631E1F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E329632E1F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProjectUITests" */;
+			buildPhases = (
+				E329631B1F0E0E4A00BEC9D8 /* Sources */,
+				E329631C1F0E0E4A00BEC9D8 /* Frameworks */,
+				E329631D1F0E0E4A00BEC9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32963211F0E0E4A00BEC9D8 /* PBXTargetDependency */,
+			);
+			name = RealEstateTycoonProjectUITests;
+			productName = RealEstateTycoonProjectUITests;
+			productReference = E329631F1F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32962F31F0E0E4A00BEC9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ShangYuKeJi;
+				TargetAttributes = {
+					E32962FA1F0E0E4A00BEC9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3UG295PK9T;
+						ProvisioningStyle = Automatic;
+					};
+					E32963131F0E0E4A00BEC9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E32962FA1F0E0E4A00BEC9D8;
+					};
+					E329631E1F0E0E4A00BEC9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E32962FA1F0E0E4A00BEC9D8;
+					};
+				};
+			};
+			buildConfigurationList = E32962F61F0E0E4A00BEC9D8 /* Build configuration list for PBXProject "RealEstateTycoonProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32962F21F0E0E4900BEC9D8;
+			productRefGroup = E32962FC1F0E0E4A00BEC9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32962FA1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */,
+				E32963131F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests */,
+				E329631E1F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E32962F91F0E0E4A00BEC9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C58F911F204181002EF75C /* DoubleTextFieldTableViewCell.xib in Resources */,
+				E329630E1F0E0E4A00BEC9D8 /* LaunchScreen.storyboard in Resources */,
+				E34CA47E1F16269D00164B3A /* PremisesInfoTableViewCell.xib in Resources */,
+				E3D6B8521F0FDB1500AC7A4C /* MiddleLabelTableViewCell.xib in Resources */,
+				E3035C141F0F7EE70086B71D /* PremisesListTableViewCell.xib in Resources */,
+				E3F68D651F1F4643001ED335 /* ReleaseAddressTableViewCell.xib in Resources */,
+				E329630B1F0E0E4A00BEC9D8 /* Assets.xcassets in Resources */,
+				E331FF871F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.xib in Resources */,
+				E3C58F8C1F204077002EF75C /* PremisesNameTableViewCell.xib in Resources */,
+				E3F68D431F1EE62D001ED335 /* DemandDetailViewController.xib in Resources */,
+				E3F68D4A1F1EE857001ED335 /* DemandDetailTableViewCell.xib in Resources */,
+				E34CA46A1F1606FA00164B3A /* HouseTypeTableViewCell.xib in Resources */,
+				E32963091F0E0E4A00BEC9D8 /* Main.storyboard in Resources */,
+				E3C58FA11F20ACEB002EF75C /* XHDatePickerView.xib in Resources */,
+				E3C58F9B1F208B1B002EF75C /* DoubleSelectTimeTableViewCell.xib in Resources */,
+				E3E161AF1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.xib in Resources */,
+				E3C9C1171F1CB225006BECF0 /* DemandTableViewCell.xib in Resources */,
+				E3F68D541F1F29D3001ED335 /* ReleaseRequirementsViewController.xib in Resources */,
+				E3F68D601F1F2F52001ED335 /* ReleaseSelectTableViewCell.xib in Resources */,
+				E3C58F961F204855002EF75C /* ButtonATextFieldTableViewCell.xib in Resources */,
+				E331FF821F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.xib in Resources */,
+				E3C533D11F1080A80019C747 /* area.plist in Resources */,
+				E3E161AA1F21E75D0056152E /* PremisesParameterTableViewCell.xib in Resources */,
+				E30383ED1F146690001C663C /* PremisesDetailViewController.xib in Resources */,
+				E3F68D5B1F1F2C04001ED335 /* PriceRangeTableViewCell.xib in Resources */,
+				E3E1619B1F218CBF0056152E /* ZYQAssetPicker.Bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32963121F0E0E4A00BEC9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E329631D1F0E0E4A00BEC9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		298FD1815D8A58385AC41A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		611D77E38FEA46F033C1127A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstateTycoonProject/Pods-RealEstateTycoonProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756D44B35BF140BCB611C80C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealEstateTycoonProject/Pods-RealEstateTycoonProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32962F71F0E0E4A00BEC9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E331FF861F18BDA700A72A69 /* LeaveWordsTextViewTableViewCell.m in Sources */,
+				E3035C0A1F0F39F40086B71D /* UIView+Extension.m in Sources */,
+				E3035BDC1F0F190E0086B71D /* CroppingImageViewController.m in Sources */,
+				E3E1619F1F218D100056152E /* EvaluationPreview.m in Sources */,
+				E3F68D5F1F1F2F52001ED335 /* ReleaseSelectTableViewCell.m in Sources */,
+				E3035BF01F0F30940086B71D /* DemandViewController.m in Sources */,
+				E30383F21F146887001C663C /* PremisesDetailHeaderView.m in Sources */,
+				E3035BF61F0F30B00086B71D /* MineViewController.m in Sources */,
+				E3035BE21F0F223A0086B71D /* BasicViewController.m in Sources */,
+				E3D3B95F1F2733A200B6751D /* PremisesUserInfoModel.m in Sources */,
+				E37145C21F13556E008B0F7C /* PayView.m in Sources */,
+				E3E1619C1F218CBF0056152E /* ZYQAssetPickerController.m in Sources */,
+				E3035C031F0F379C0086B71D /* ZJNTabbar.m in Sources */,
+				E34CA4771F161F3200164B3A /* SDBrowserImageView.m in Sources */,
+				E3C58F9A1F208B1B002EF75C /* DoubleSelectTimeTableViewCell.m in Sources */,
+				E3035BDA1F0F190E0086B71D /* ZJNRequestManager.m in Sources */,
+				E3E161961F218CB00056152E /* AddImageView.m in Sources */,
+				E3035C0D1F0F65C60086B71D /* UIColor+Extensiton.m in Sources */,
+				E3F68D5A1F1F2C04001ED335 /* PriceRangeTableViewCell.m in Sources */,
+				E3035BF91F0F30C10086B71D /* PremisesViewController.m in Sources */,
+				E3C9C1161F1CB225006BECF0 /* DemandTableViewCell.m in Sources */,
+				E3C58F901F204181002EF75C /* DoubleTextFieldTableViewCell.m in Sources */,
+				E3035C131F0F7EE70086B71D /* PremisesListTableViewCell.m in Sources */,
+				E30383EC1F146690001C663C /* PremisesDetailViewController.m in Sources */,
+				E3D6B84D1F0FDA7100AC7A4C /* AreaPremisesView.m in Sources */,
+				E331FF811F18A79B00A72A69 /* PremisesProjectInfoTableViewCell.m in Sources */,
+				E3F68D531F1F29D3001ED335 /* ReleaseRequirementsViewController.m in Sources */,
+				E34CA4781F161F3200164B3A /* SDPhotoBrowser.m in Sources */,
+				E3C58FA41F20AF34002EF75C /* NSDate+Extension.m in Sources */,
+				E3D3B95C1F2725D000B6751D /* DemandListModel.m in Sources */,
+				E3035BDF1F0F1BCA0086B71D /* UILabel+BoundingRect.m in Sources */,
+				E3035C061F0F397E0086B71D /* UIImage+Image.m in Sources */,
+				E3035BFC1F0F30CE0086B71D /* ReleaseViewController.m in Sources */,
+				E3035C001F0F37830086B71D /* RealEstateTycoonTabbarController.m in Sources */,
+				E3F68D641F1F4643001ED335 /* ReleaseAddressTableViewCell.m in Sources */,
+				E3035BF31F0F30A20086B71D /* MessageViewController.m in Sources */,
+				E3E161AE1F21FE3F0056152E /* PremisesInfoAndRuleTableViewCell.m in Sources */,
+				E3E161A91F21E75D0056152E /* PremisesParameterTableViewCell.m in Sources */,
+				E34CA4791F161F3200164B3A /* SDWaitingView.m in Sources */,
+				E3C9C10B1F1C5C69006BECF0 /* UIViewController+HUD.m in Sources */,
+				E3E161A21F21CEEC0056152E /* HouseTypeImageTableViewCell.m in Sources */,
+				E3C58F851F20400D002EF75C /* ReleasePremisesViewController.m in Sources */,
+				E3E161A51F21E2250056152E /* ContractImageTableViewCell.m in Sources */,
+				E34CA46D1F1609AE00164B3A /* HouseTypeView.m in Sources */,
+				E32963061F0E0E4A00BEC9D8 /* ViewController.m in Sources */,
+				E3035BE51F0F29D40086B71D /* RealEstateTycoonViewController.m in Sources */,
+				E3D6B84A1F0FDA5D00AC7A4C /* AllOrTypePremisesView.m in Sources */,
+				E3C58F8B1F204077002EF75C /* PremisesNameTableViewCell.m in Sources */,
+				E3C58FA01F20ACEB002EF75C /* XHDatePickerView.m in Sources */,
+				E34CA4691F1606FA00164B3A /* HouseTypeTableViewCell.m in Sources */,
+				E3C58F951F204855002EF75C /* ButtonATextFieldTableViewCell.m in Sources */,
+				E37145BF1F132ABD008B0F7C /* SearchPremisesViewController.m in Sources */,
+				E32963031F0E0E4A00BEC9D8 /* AppDelegate.m in Sources */,
+				E37145C51F137C2B008B0F7C /* ZJNPasswordTextField.m in Sources */,
+				E3F68D491F1EE857001ED335 /* DemandDetailTableViewCell.m in Sources */,
+				E3F68D421F1EE62D001ED335 /* DemandDetailViewController.m in Sources */,
+				E3035C171F0F8FAD0086B71D /* ZJNPremisesTableHeaderView.m in Sources */,
+				E32963001F0E0E4A00BEC9D8 /* main.m in Sources */,
+				E3035BDB1F0F190E0086B71D /* Utile.m in Sources */,
+				E34CA47D1F16269D00164B3A /* PremisesInfoTableViewCell.m in Sources */,
+				E3D3B9591F2715DD00B6751D /* PremisesDetailModel.m in Sources */,
+				E3D6B8511F0FDB1500AC7A4C /* MiddleLabelTableViewCell.m in Sources */,
+				E3FFFA3D1F25EEB0008679B5 /* PremisesListModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32963101F0E0E4A00BEC9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32963191F0E0E4A00BEC9D8 /* RealEstateTycoonProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E329631B1F0E0E4A00BEC9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32963241F0E0E4A00BEC9D8 /* RealEstateTycoonProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E32963161F0E0E4A00BEC9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32962FA1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */;
+			targetProxy = E32963151F0E0E4A00BEC9D8 /* PBXContainerItemProxy */;
+		};
+		E32963211F0E0E4A00BEC9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32962FA1F0E0E4A00BEC9D8 /* RealEstateTycoonProject */;
+			targetProxy = E32963201F0E0E4A00BEC9D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E32963071F0E0E4A00BEC9D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32963081F0E0E4A00BEC9D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E329630C1F0E0E4A00BEC9D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E329630D1F0E0E4A00BEC9D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E32963261F0E0E4A00BEC9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E32963271F0E0E4A00BEC9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32963291F0E0E4A00BEC9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E627BFA6239609A9F3498F /* Pods-RealEstateTycoonProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RealEstateTycoonProject/header.h";
+				INFOPLIST_FILE = RealEstateTycoonProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E329632A1F0E0E4A00BEC9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03A5CB45123122A041BCB5A /* Pods-RealEstateTycoonProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UG295PK9T;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RealEstateTycoonProject/header.h";
+				INFOPLIST_FILE = RealEstateTycoonProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E329632C1F0E0E4A00BEC9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealEstateTycoonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstateTycoonProject.app/RealEstateTycoonProject";
+			};
+			name = Debug;
+		};
+		E329632D1F0E0E4A00BEC9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealEstateTycoonProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstateTycoonProject.app/RealEstateTycoonProject";
+			};
+			name = Release;
+		};
+		E329632F1F0E0E4A00BEC9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealEstateTycoonProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealEstateTycoonProject;
+			};
+			name = Debug;
+		};
+		E32963301F0E0E4A00BEC9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealEstateTycoonProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShangYUKeJi.RealEstateTycoonProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealEstateTycoonProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32962F61F0E0E4A00BEC9D8 /* Build configuration list for PBXProject "RealEstateTycoonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32963261F0E0E4A00BEC9D8 /* Debug */,
+				E32963271F0E0E4A00BEC9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32963281F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32963291F0E0E4A00BEC9D8 /* Debug */,
+				E329632A1F0E0E4A00BEC9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E329632B1F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E329632C1F0E0E4A00BEC9D8 /* Debug */,
+				E329632D1F0E0E4A00BEC9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E329632E1F0E0E4A00BEC9D8 /* Build configuration list for PBXNativeTarget "RealEstateTycoonProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E329632F1F0E0E4A00BEC9D8 /* Debug */,
+				E32963301F0E0E4A00BEC9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32962F31F0E0E4A00BEC9D8 /* Project object */;
+}
